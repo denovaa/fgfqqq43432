@@ -1,0 +1,23 @@
+#!/bin/bash -li
+    2  cd /ide/xterm || exit
+    3  exec /ide/xterm/bin/node /ide/xterm/index.cjs "$@"
+    4  git init
+    5  git checkout -b sanya/spirnter
+    6  mkdir groups
+    7  mkdir students
+    8  cd groups
+    9  touch {0..554}.txt
+   10  ls
+   11  git commit -m "Создал 555 файлов"
+   12  git add .
+   13  git commit -m "Создал 555 файлов"
+   14  cd ..
+   15  cd students/
+   16  touch {0..299}.txt
+   17  ls
+   18  git add .
+   19  git commit -m "Создал 300 файлов"
+   20  cd ..
+   21  touch commands_logs.txt
+   22  ls
+   23  history
