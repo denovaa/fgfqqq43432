@@ -21,3 +21,16 @@
    21  touch commands_logs.txt
    22  ls
    23  history
+   24  nano commands_logs.txt 
+   25  git add .
+   26  git push origin sanya/spirnter 
+   27  git add .
+   28  ls
+   29  git commit -m "Файл с историей команд"
+   30  git rm commands_logs.txt 
+   31  ls
+   32  mkdir commands
+   33  ls
+   34  cd commands/
+   35  touch commands_logs.txt
+   36  history
